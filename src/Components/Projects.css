@@ -1,0 +1,11 @@
+
+
+.Pcon {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  min-height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 66px;
+}

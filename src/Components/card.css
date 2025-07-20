@@ -1,0 +1,35 @@
+.Outer {
+  background: #ffffff;
+  border-radius: 8px;
+  height: 300px;
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.inimg {
+  border-radius: 10px 10px 0 0;
+  height: 160px;
+  width: 300px;
+}
+.txt {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  text-align: center;
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.btn {
+  font-weight: 500;
+  font-size: small;
+}
+
+.inbtn {
+  margin-left: 27%;
+  margin-right: 27%;
+}
+.inbtn:hover {
+  border: 2px solid black;
+  color: red;
+}

@@ -1,0 +1,9 @@
+AnimatedCursor {
+  z-index: 11;
+  filter: invert(1);
+}
+@media screen and (max-width: 768px) {
+  AnimatedCursor {
+    display: none;
+  }
+}

@@ -1,0 +1,84 @@
+/* src/AboutMe.css */
+.about-me-container {
+  min-height: 100vh;
+  /* height: 100vh; */
+  margin: 60px auto 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.about-me-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 800px;
+  padding-bottom: 60px; /* Ensure space for the button */
+  position: relative; /* For containing the button container */
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.about-me-text h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-me-text p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+#abTxt {
+  font-size: 20px;
+}
+
+/* Button  */
+
+.Abutton-container {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.contact-button {
+  display: inline-block;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+.contact-button:hover {
+  color: red;
+}
+
+.Abutton-container:hover {
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+@media (max-width: 768px) {
+  .profile-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .about-me-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .about-me-text p {
+    font-size: 0.9rem;
+  }
+}
