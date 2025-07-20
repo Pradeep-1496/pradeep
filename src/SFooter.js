@@ -162,7 +162,10 @@ const SFooter = () => {
             <button
               type="submit"
               className="inline-flex items-center justify-center px-6 py-4 mt-3 font-semibold text-black transition-all duration-200 bg-[white] rounded-[10px] rounded-md hover:border-2 hover:border-solid hover:border-[black] hover:text-[#ff0000]">
-              <a href="https://doc-08-a0-apps-viewer.googleusercontent.com/viewer/secure/pdf/3nb9bdfcv3e2h2k1cmql0ee9cvc5lole/nn1qnt62bglv5je9noo3t3mfp9o4fqdl/1752990375000/drive/*/ACFrOgDXKUXQ2ynXmyzuGd5wRaxAZ6n--oFEVWsREoSA5snRsjFVx1rCTcCXrBssZeBcNrdnv3M9WHBgYMeXgNr56GDzfqG6XmkBEwSO9d3JNManIWO7yVbwBD4-XDFH4Wmb-C5Oy3JnXhw07DaJMXjlU6dD7HNaGfNxXG-V1pionfciuPEGwADyA9XS9b2kJcOPvsLoBsnl-Em29tqd9dZ1nLDdDmD5pw-kQCTZFNCkKNvs8GFhhFg-uOcU2GY=?print=true">
+              <a
+                href="https://doc-08-a0-apps-viewer.googleusercontent.com/viewer/secure/pdf/3nb9bdfcv3e2h2k1cmql0ee9cvc5lole/nn1qnt62bglv5je9noo3t3mfp9o4fqdl/1752990375000/drive/*/ACFrOgDXKUXQ2ynXmyzuGd5wRaxAZ6n--oFEVWsREoSA5snRsjFVx1rCTcCXrBssZeBcNrdnv3M9WHBgYMeXgNr56GDzfqG6XmkBEwSO9d3JNManIWO7yVbwBD4-XDFH4Wmb-C5Oy3JnXhw07DaJMXjlU6dD7HNaGfNxXG-V1pionfciuPEGwADyA9XS9b2kJcOPvsLoBsnl-Em29tqd9dZ1nLDdDmD5pw-kQCTZFNCkKNvs8GFhhFg-uOcU2GY=?print=true"
+                target="_blank"
+                rel="noreferrer">
                 Download CV
               </a>
             </button>
